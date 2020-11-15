@@ -1,3 +1,8 @@
+
+# NAMA  : Muhammad Ridho Hafidz
+# NIM   : 0110219051
+# KELAS : TI 07
+
 def cetak_nama(nama=''):
   # Tulis kode fungsi cetak_nama di bawah ini
   # Hapus pass jika implementasi sudah dibuat
@@ -31,10 +36,10 @@ def hitung_kesamaan(kata1, kata2):
     #perulangan disesuaikan panjang dari variabel kata2
     while c < len(kata2):
       #jika isi kata2 sesuai dengan isi dari kata1, maka jalankan statement true
-      if kata2[1] == kata1[c]:
+      if kata2[c] == kata1[c]:
         #jika benar, ubah variabel total jadi +1
         total += 1
-      #jika tidak lewatin   
+      #jika tidak, akan terlewat   
       else:
         pass
       #tiap perulangan variabel i akan bertambah 1
@@ -52,7 +57,7 @@ def hitung_kesamaan(kata1, kata2):
       if kata1[c] == kata2[c]:
         #jika benar, ubah variabel total jadi +1
         total += 1
-      #jika tidak lewatin
+      #jika tidak, akan terlewat
       else: 
         pass
       #tiap perulangan variabel c akan bertambah 
@@ -74,8 +79,7 @@ def hitung(bil1, bil2, operator='+'):
   #Jika operator bernilai '*', maka fungsi akan mengembalikan bil1 * bil2
   elif operator == "*":
     count = bil1 * bil2 
-    return count 
-
+    return count
 
 # Mulai baris ini hingga baris paling bawah
 # digunakan untuk mengetes fungsi yang telah dibuat.
