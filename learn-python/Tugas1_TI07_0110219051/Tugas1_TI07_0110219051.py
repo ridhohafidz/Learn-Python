@@ -75,4 +75,4 @@ print("NIM :", nim)
 #Mencetak Total SKS
 print("Total SKS :", total)
 #Mencetak nilai Index Prestasi dibagi total sks
-print("Index prestasi :", ip/total)
+print("Index prestasi :", round(ip/total, 2))
